@@ -1,0 +1,32 @@
+        <div class="box">
+          <img src="static/images/tammy.png">
+          <h3>The STAR</h3>
+        </div>
+        <div class="box">
+          <img src="static/images/kevin.png">
+          <h3>Grumper</h3>
+        </div>
+        <div class="box">
+          <img src="static/images/keai.png">
+          <h3>Growly lover</h3>
+        </div>
+        <div class="box" id="kayl">
+          <img src="static/images/kayl.png">
+          <h3>Most loved</h3>
+        </div>
+        <div class="box" id="kable">
+          <img src="static/images/kable.png">
+          <h3>Almost as loved</h3>
+        </div>
+        <div class="box">
+          <img src="static/images/koda.png">
+          <h3>The Young Boi</h3>
+        </div>
+        <div class="box">
+          <img src="static/images/roo.png">
+          <h3>The Angel</h3>
+        </div>
+        <div class="box">
+          <img src="static/images/kub.png">
+          <h3>The Double Grump</h3>
+        </div>
