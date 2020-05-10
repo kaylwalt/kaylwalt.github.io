@@ -49,3 +49,7 @@ $(document).ready(function() {
     */
 
 });
+
+var silly = () => {
+    alert("YOU WILL NEVER BE AS COOL AS HER")
+}
