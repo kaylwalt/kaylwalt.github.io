@@ -6,13 +6,14 @@ var makeAudio = (box) => {
         box.removeClass("talk spaz")
     }, false);
 
+    var spazzy =  ["kevin", "roo", "tammy"]
     var boxId = box.attr('id')
     console.log(boxId)
     audioElement.setAttribute('src', 'static/audio/' + boxId + '.mp3');
     box.click(() => {
         if (audioElement.paused) {
             audioElement.play()
-            if (boxId == "kevin"){
+            if (spazzy.includes(boxId)){
                 box.addClass("spaz")
             }
             else {
@@ -28,7 +29,7 @@ var makeAudio = (box) => {
 
 $(document).ready(function() {
     console.log("running")
-    var theone = $('#special').children()
+    var theone = $('#special').find('img')
     var arr = $.makeArray(theone)
 
     arr.forEach(element => {
